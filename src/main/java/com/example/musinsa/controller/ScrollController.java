@@ -31,7 +31,7 @@ public class ScrollController {
 	@GetMapping("/")
 	public ModelAndView getmusinsalist() {
 		ModelAndView mav = new ModelAndView();
-		
+		System.out.println("test");
 		scrollService.getmusinsalist(mav);
 		System.out.println("test");
 		return mav;
