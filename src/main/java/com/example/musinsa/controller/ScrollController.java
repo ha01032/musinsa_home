@@ -33,7 +33,7 @@ public class ScrollController {
 		ModelAndView mav = new ModelAndView();
 		
 		scrollService.getmusinsalist(mav);
-		
+		System.out.println("test");
 		return mav;
 	}
 
